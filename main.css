@@ -51,10 +51,9 @@ body{
     transition: 600ms ease;
     position: relative;
     z-index: 1;
-    padding: 1px;
     border-radius: 1rem;
     align-items: justify;
-    min-height: 300px;
+    min-height: 100px;
 }
 
 .section:nth-child(even){
