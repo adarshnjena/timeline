@@ -98,6 +98,7 @@ h1{
         padding:0 10px;
         padding-left: 20px;
         transform: translateX(100%);
+        text-align: left;
     }
     .show-me:nth-child(n){
         opacity: 1;
@@ -112,7 +113,7 @@ h1{
     .bead{
         left: 0;
     }
-    .section:nth-child(even){
+    .section:nth-child(odd){
         text-align: left;
     }
 }
