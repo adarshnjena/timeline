@@ -30,8 +30,8 @@ body{
 
 .line{
     position: absolute;
-    left: calc(50% - 1px);
-    width: 2px;
+    left: calc(50% - 2px);
+    width: 4px;
     top: -50px;
     bottom: -50px;
     border-radius: 50px;
@@ -70,13 +70,28 @@ body{
 .bead{
     position: absolute;
     display: block;
-    height: 1rem;
-    width: 1rem;
+    height: 1.3rem;
+    width: 1.3rem;
     border-radius: 50%;
-    background-color: #6AC5AA;
     left: 50%;
     top: 20%;
     transform: translateX(-50%);
+}
+
+.bead1{
+    background-color: #3361AD;
+}
+
+.bead2{
+    background-color: #6061AC;
+}
+
+.bead3{
+    background-color: #39B8C8;
+}
+
+.bead4{
+    background-color: #6AC5AA;
 }
 
 .content{
@@ -108,7 +123,7 @@ h1{
         width: 100%;
     }
     .line{
-        left: 0;
+        left: -2px;
     }
     .bead{
         left: 0;
