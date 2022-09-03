@@ -53,16 +53,17 @@ body{
     z-index: 1;
     padding: 1px;
     border-radius: 1rem;
-    align-items: center;
+    align-items: justify;
     min-height: 300px;
 }
 
-.section:nth-child(odd){
+.section:nth-child(even){
     flex-direction: row-reverse;
     transform: translateX(100%);
+    text-align: left;
 }
 
-.section:nth-child(even){
+.section:nth-child(odd){
     text-align: right;
 }
 
@@ -96,9 +97,7 @@ h1{
     .section{
         padding:0 10px;
         padding-left: 20px;
-    }
-    .section:nth-child(odd){
-        transform: translateX(-100%);
+        transform: translateX(100%);
     }
     .show-me:nth-child(n){
         opacity: 1;
